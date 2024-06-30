@@ -23,4 +23,4 @@ Aquí está una nota al pie[^1].
 4. **Diseñamos un prototipo:**
 5. **Desarrollamos una solución:**
 
-[^1]: Más información en <a href="https://www.infobae.com/sociedad/2024/03/08/un-estudio-global-advirtio-sobre-los-problemas-de-seguridad-y-violencia-que-sufren-las-mujeres-en-la-argentina/" target="_blank">estudio sobre violencia de género</a>.
+[^1]: Más información en [estudio sobre violencia de género](https://www.infobae.com/sociedad/2024/03/08/un-estudio-global-advirtio-sobre-los-problemas-de-seguridad-y-violencia-que-sufren-las-mujeres-en-la-argentina/.)
