@@ -21,6 +21,9 @@ Aquí está una nota al pie[^1].
 2. **Definimos público objetivo:** Definimos nuestro público objetivo como mujeres de bajos recursos o sin acceso a esta información vital. Planeamos crear una página web que proporcione recursos útiles y relevante información sobre estos temas, incluyendo historias de vida para humanizar y dar contexto a la problemática
 3. **Ideamos una solución:** Planeamos crear una página web que proporcione recursos útiles y relevante información sobre estos temas. La web incluirá información sobre dónde realizarse el IVE, dónde conseguir profilácticos y pastillas anticonceptivas, así como recursos sobre la prevención de femicidios. Además, visibilizaremos casos y proporcionaremos alertas tempranas, junto con historias de vida para humanizar y dar contexto a la problemática
 4. **Diseñamos un prototipo:** creé un prototipo en Figma para la página web. Aún no hemos decidido si será solo una página de inicio o una landing page completa. En la página de inicio habrá un carrusel con imágenes, seguido de una sección de bienvenida que explique la esencia y el propósito de la página. Más abajo, habrá un formulario de contacto y, al final, un footer con nuestra ubicación y enlaces a nuestras redes sociales. Aunque aún no lo he diseñado, también tengo la idea de agregar tarjetas con datos importantes y otros recursos relevantes.
-5. **Desarrollamos una solución:**
+
+(https://github.com/canda-creator/CET-Genero/blob/main/Screenshot_20240701-162052~2.png?raw=true)
+
+6. **Desarrollamos una solución:**
 
 [^1]: Más información en [estudio sobre violencia de género](https://www.infobae.com/sociedad/2024/03/08/un-estudio-global-advirtio-sobre-los-problemas-de-seguridad-y-violencia-que-sufren-las-mujeres-en-la-argentina/.)
