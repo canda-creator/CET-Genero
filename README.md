@@ -7,7 +7,7 @@ Nuestro objetivo es crear una página web informativa, que incluya recursos sobr
 
 Acá dejamos tres datos al respecto:
 
-- `Las mujeres ganan aproximadamente un 23% menos que los hombres en promedio.
+- `Las mujeres ganan aproximadamente un 23% menos que los hombres en promedio.`
 - A 3 años de legalización del aborto, se registraron más de 245 mil interrupciones voluntarias y legales del embarazo en el sector público
 - Dato 3
 
