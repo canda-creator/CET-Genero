@@ -1,5 +1,20 @@
 # CET - Género
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 > "La igualdad de género es un derecho humano fundamental." - ONU
 
 ¡Bienvenidx al repositorio correspondiente a las chicas Victoria Colombino, Priscila Menlik, Candela Abalos Alfonso y Angeles Estrella del curso de desarrollo Front-End de Chicas en Tecnología 2024!
