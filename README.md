@@ -1,20 +1,5 @@
 # CET - Género
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 > "La igualdad de género es un derecho humano fundamental." - ONU
 
 ¡Bienvenidx al repositorio correspondiente a las chicas Victoria Colombino, Priscila Menlik, Candela Abalos Alfonso y Angeles Estrella del curso de desarrollo Front-End de Chicas en Tecnología 2024!
@@ -24,7 +9,7 @@ Acá dejamos tres datos al respecto:
 
 - `Las mujeres ganan aproximadamente un 23% menos que los hombres en promedio.`
 - `A 3 años de legalización del aborto, se registraron más de 245 mil interrupciones voluntarias y legales del embarazo en el sector público`
-- La ley garantiza de forma integral acciones preventivas, estándares de calidad y de atención antes, durante y después del aborto.
+- `La ley garantiza de forma integral acciones preventivas, estándares de calidad y de atención antes, durante y después del aborto.`
 
 Aquí está una nota al pie[^1].
 
