@@ -2,7 +2,7 @@
 
 > "La igualdad de género es un derecho humano fundamental." - ONU
 
-¡Bienvenidx al repositorio correspondiente a las chicas Victoria Colombino, Priscila Menlik, Candela Abalos Alfonso y Angeles Estrella del curso de desarrollo Front-End de Chicas en Tecnología 2024!
+¡Bienvenidx al repositorio correspondiente a las chicas Victori Colombino, Priscila Menlik, Candela Abalos Alfonso y Angeles Estrella del curso de desarrollo Front-End de Chicas en Tecnología 2024!
 Nuestro objetivo es crear una página web informativa, que incluya recursos sobre la Interrupción Voluntaria del Embarazo (IVE), información sobre dónde realizar el procedimiento y dónde conseguir profilacticos y pastillas anticonceptivas. 
 
 Acá dejamos tres datos al respecto:
