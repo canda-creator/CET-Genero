@@ -1,15 +1,10 @@
+/*CSS del index.html*/
 h1
 {   
     color:#FFAEBC;
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-}
-
-.parrafo-pagina-secundaria{
-    background-color: #FFAEBC;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
 }
 
 a{
@@ -19,4 +14,11 @@ a{
 #parrafo-index{
     background-color: #A0E7E5;
     color: blue;
+}
+
+/*CSS del ive-ile.html*/
+.parrafo-ive{
+    background-color: #FFAEBC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
