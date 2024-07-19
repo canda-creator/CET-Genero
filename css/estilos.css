@@ -1,5 +1,5 @@
 /*CSS del index.html*/
-h1
+.h1-index
 {   
     color:#FFAEBC;
     font-family: "Noto Sans JP", sans-serif;
@@ -7,9 +7,25 @@ h1
     font-style: normal;
 }
 
-a{
+.a-index{
     color: #FCB5AC;
 }
+
+.h2-index
+{   
+    color:#FFAEBC;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.h1-ive{
+    color:#FFAEBC;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 
 #parrafo-index{
     background-color: #A0E7E5;
@@ -21,4 +37,37 @@ a{
     background-color: #FFAEBC;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+}
+
+
+.custom-navbar {
+    background-color: #FAF3F3; /* Fondo rosa muy claro */
+    color: #8A716A; /* Texto marrón claro */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #8A716A; /* Texto marrón claro */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #D4A5A5; /* Texto rosa suave al pasar el ratón */
+}
+
+.custom-navbar .navbar-toggler {
+    border-color: #8A716A; /* Borde marrón claro para el botón de colapso */
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28138, 113, 106, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    /* Ícono de color marrón claro */
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
