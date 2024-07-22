@@ -10,7 +10,9 @@
 }
 
 .custom-navbar .nav-link:hover {
-    color:#1A4314;
+    color:#1A4314
+
+    ;
 }
 
 .custom-navbar .navbar-toggler  {
@@ -21,80 +23,43 @@
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28138, 113, 106, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.h1-index {   
-    color:#0b9e06;
+/*.h1-ive {
+    color:#FFAEBC;
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    margin-left: 15px;
 }
 
-.h2-index{
-    color:#0b9e06;
-    font-family: "Noto Sans JP", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin-left: 15px;
+.parrafo-ive {
+    background-color: #FFAEBC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
-
-#parrafo-index {
-    background-color: #A0E7E5;
-    color: blue;
-}
-
-.content-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.small-image {
-    max-width: 350px; /* Ajusta el tamaño máximo de la imagen según lo necesites */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin-right: 15px; /* Espacio entre la imagen y el texto */
-}
-
-.text {
-    max-width: 50%;
-}
-
-.h1-index {   
-    color: #FFAEBC;
-    font-family: "Noto Sans JP", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin-bottom: 10px;
-}
-
-.h2-index {   
-    color: #0b9e06;
-    font-family: "Noto Sans JP", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin-bottom: 10px;
-}
-
-#parrafo-index {
-    margin-left:15px;
-    background-color: #A0E7E5;
-    color: blue;
-}
-
-.ley-link{
-    margin-left: 15px;
-}
-
-.titulo-preguntas{
-    color: green;
+*/
+.h1-ive {
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    color: #FFAEBC; /* Color de texto rosa claro */
+    font-family: "Noto Sans JP", sans-serif; /* Fuente sans-serif */
+    font-size: 2.5em; /* Tamaño de fuente grande */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 20px; /* Espacio debajo del título */
 }
 
+.parrafo-ive {
+    background-color: #FFAEBC; /* Fondo rosa claro */
+    color: #333; /* Color de texto oscuro para contraste */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Fuente serif */
+    font-style: italic; /* Cursiva */
+    padding: 10px; /* Espacio interno alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    line-height: 1.6; /* Espaciado entre líneas */
+    max-width: 800px; /* Ancho máximo del párrafo */
+    margin: 0 auto; /* Centrar el párrafo */
+    margin-bottom: 15px;
 
-.preguntas-frecuentes{
-    margin-bottom: 30px;
 }
+
 
 .custom-footer {
     background-color:#42dd40;

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Género</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <!--Agrego una font de Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,7 @@
     <header>
         <nav class="navbar navbar-expand-lg custom-navbar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Género</a>
+                <a class="navbar-brand" href="index.html">GÉNERO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,7 +30,7 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../html/ive-ile.html">Ive e Ile</a>
+                            <a class="nav-link" href="../html/ive-ile.html">Info</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../html/contacto.html">Contacto</a>
@@ -38,30 +39,99 @@
                 </div>
             </div>
         </nav>
-        <h1>Género</h1>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="../html/ive-ile.html">Ive e Ile</a></li>
-            <li><a href="../html/contacto.html">Contacto</a></li>
-            <li><a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/345000-349999/346231/norma.htm" target="_blank">Accedé a la Ley Nacional 27.610 acá</a>
-        </ul> 
     </header>
 
-    <main>
-        <h1 class="h1-index">Género</h1>
-        <h2 class="h2-index">Bienvenid@s</h2>
-        <p id="parrafo-index">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, accusamus est cum veniam accusantium maiores labore ex ratione ipsum tempora minima fugiat ipsam. Delectus ad, modi eos veritatis consectetur tenetur.</p>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="../img/carrusel.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="../img/carrusel.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="../img/carrusel-1.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main class="container mt-4">
+        <div class="content-wrapper">
+            <img src="../img/ilustracion-aborto-diseno-plano-dibujado-mano_23-2149381686.jpg" class="small-image" alt="Descripción de la Imagen">
+            <div class="text">
+                <h1 class="h1-index">Despenalización del Aborto</h1>
+                <h2 class="h2-index">Bienvenid@s</h2>
+                <p id="parrafo-index">Bienvenid@s a nuestra página dedicada a la despenalización del aborto. Aquí encontrarás información clara y accesible sobre los recursos disponibles, la legislación actual, y los aspectos fundamentales del aborto despenalizado. Nuestro objetivo es proporcionar apoyo y educación para ayudar a comprender mejor este tema importante.</p>
+                <a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/345000-349999/346231/norma.htm" target="_blank" class="ley-link">Accedé a la Ley Nacional 27.610 acá</a>
+            </div>
+        </div>
     </main>
+
+    <h2 class="titulo-preguntas">Preguntas Frecuentes</h2>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Qué es la despenalización del aborto?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    La despenalización del aborto se refiere a la eliminación de sanciones penales para la interrupción del embarazo en ciertas circunstancias. Esto permite el acceso legal y seguro al aborto, regulado por leyes específicas.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Cuáles son los requisitos para acceder a una IVE?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Los requisitos para acceder a una Interrupción Voluntaria del Embarazo (IVE) pueden variar según la legislación local, pero generalmente incluyen la necesidad de cumplir con ciertos plazos gestacionales y, en algunos casos, proporcionar motivos específicos para la solicitud.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Dónde puedo encontrar apoyo emocional?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Puedes encontrar apoyo emocional a través de líneas de ayuda, grupos de apoyo y consejeros especializados. Muchas organizaciones ofrecen servicios gratuitos y confidenciales para quienes necesitan apoyo durante este proceso.
+                </div>
+            </div>
+        </div>
+    </div>
     
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis tempore quae, dicta itaque distinctio impedit quod vitae dolorem possimus mollitia. Ipsum voluptatibus quidem natus harum ex est sequi voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia ipsum doloribus? Nihil voluptatem ad dicta deleniti voluptatibus, ipsa corrupti, necessitatibus consequatur provident modi libero omnis nesciunt accusamus sequi quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi libero quod accusamus reprehenderit tenetur? Ad officiis repudiandae molestiae distinctio quo! Eum voluptas doloremque minima consequatur ex beatae rerum accusantium doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nihil. Autem, odit corrupti? Ex eligendi a corporis at quidem repudiandae, culpa sed doloribus ea doloremque illo iure, nobis dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt totam beatae amet sit quos saepe laudantium, pariatur sapiente omnis impedit aliquam itaque facere maxime sed, recusandae in! Commodi, culpa ipsam?Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis tempore quae, dicta itaque distinctio impedit quod vitae dolorem possimus mollitia. Ipsum voluptatibus quidem natus harum ex est sequi voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia ipsum doloribus? Nihil voluptatem ad dicta deleniti voluptatibus, ipsa corrupti, necessitatibus consequatur provident modi libero omnis nesciunt accusamus sequi quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi libero quod accusamus reprehenderit tenetur? Ad officiis repudiandae molestiae distinctio quo! Eum voluptas doloremque minima consequatur ex beatae rerum accusantium doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nihil. Autem, odit corrupti? Ex eligendi a corporis at quidem repudiandae, culpa sed doloribus ea doloremque illo iure, nobis dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt totam beatae amet sit quos saepe laudantium, pariatur sapiente omnis impedit aliquam itaque facere maxime sed, recusandae in! Commodi, culpa ipsam?Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis tempore quae, dicta itaque distinctio impedit quod vitae dolorem possimus mollitia. Ipsum voluptatibus quidem natus harum ex est sequi voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia ipsum doloribus? Nihil voluptatem ad dicta deleniti voluptatibus, ipsa corrupti, necessitatibus consequatur provident modi libero omnis nesciunt accusamus sequi quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi libero quod accusamus reprehenderit tenetur? Ad officiis repudiandae molestiae distinctio quo! Eum voluptas doloremque minima consequatur ex beatae rerum accusantium doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nihil. Autem, odit corrupti? Ex eligendi a corporis at quidem repudiandae, culpa sed doloribus ea doloremque illo iure, nobis dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt totam beatae amet sit quos saepe laudantium, pariatur sapiente omnis impedit aliquam itaque facere maxime sed, recusandae in! Commodi, culpa ipsam?Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis tempore quae, dicta itaque distinctio impedit quod vitae dolorem possimus mollitia. Ipsum voluptatibus quidem natus harum ex est sequi voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia ipsum doloribus? Nihil voluptatem ad dicta deleniti voluptatibus, ipsa corrupti, necessitatibus consequatur provident modi libero omnis nesciunt accusamus sequi quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi libero quod accusamus reprehenderit tenetur? Ad officiis repudiandae molestiae distinctio quo! Eum voluptas doloremque minima consequatur ex beatae rerum accusantium doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nihil. Autem, odit corrupti? Ex eligendi a corporis at quidem repudiandae, culpa sed doloribus ea doloremque illo iure, nobis dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt totam beatae amet sit quos saepe laudantium, pariatur sapiente omnis impedit aliquam itaque facere maxime sed, recusandae in! Commodi, culpa ipsam?Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis tempore quae, dicta itaque distinctio impedit quod vitae dolorem possimus mollitia. Ipsum voluptatibus quidem natus harum ex est sequi voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia ipsum doloribus? Nihil voluptatem ad dicta deleniti voluptatibus, ipsa corrupti, necessitatibus consequatur provident modi libero omnis nesciunt accusamus sequi quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi libero quod accusamus reprehenderit tenetur? Ad officiis repudiandae molestiae distinctio quo! Eum voluptas doloremque minima consequatur ex beatae rerum accusantium doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nihil. Autem, odit corrupti? Ex eligendi a corporis at quidem repudiandae, culpa sed doloribus ea doloremque illo iure, nobis dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt totam beatae amet sit quos saepe laudantium, pariatur sapiente omnis impedit aliquam itaque facere maxime sed, recusandae in! Commodi, culpa ipsam?</p>
-    
-    <footer>©Todos los derechos reservados</footer>
-    <i class="bi bi-instagram"></i> 
-    <i class="bi bi-github"></i>
-    <i class="bi bi-twitter"></i>
-    <i class="bi bi-envelope-at"></i>
+    <footer class="custom-footer">
+        <div class="footer-content">
+            <div class="location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <span>Buenos Aires</span>
+            </div>
+            <div class="social-icons">
+                <a href="http://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="http://github.com" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="http://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="http://gmail.com" target="_blank"><i class="bi bi-envelope-at"></i></a>
+            </div>
+        </div>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
     <!-- ATAJOS
     para hacer comentarios: "ctrl k c" o "ctrl u c"
     para que el codigo se siga viendo sin necesidad de usar la barra espaciadora: "alt z"
