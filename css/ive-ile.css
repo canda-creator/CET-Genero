@@ -60,6 +60,58 @@
 
 }
 
+.h2-info{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.h2-info {
+    color: #0b9e06; /* Color verde o el que prefieras */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo del contenedor de la lista de centros */
+.centros-lista {
+    /*max-width: 800px;*/
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de cada ítem de centro de salud */
+.centro-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.centro-item h3 {
+    margin-top: 0;
+    color: #0b9e06;
+}
+
+.centro-item p {
+    margin: 5px 0;
+}
+
+.centro-item strong {
+    color: #333;
+}
+
+
+
+
+
+
+
+
 
 .custom-footer {
     background-color:#42dd40;
@@ -95,4 +147,8 @@
 
 .social-icons i:hover {
     color: #D4A5A5;
+}
+
+p{
+    margin-left: 20px;
 }

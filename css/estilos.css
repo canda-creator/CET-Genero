@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 .custom-navbar {
     background-color:#42dd40;
     color: #8A716A;
@@ -38,7 +40,6 @@
 }
 
 #parrafo-index {
-    background-color: #A0E7E5;
     color: blue;
 }
 
@@ -59,7 +60,7 @@
 }
 
 .h1-index {   
-    color: #FFAEBC;
+    color: #5d40c5;
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -76,12 +77,16 @@
 
 #parrafo-index {
     margin-left:15px;
-    background-color: #A0E7E5;
-    color: blue;
 }
 
 .ley-link{
     margin-left: 15px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ley-link:hover{
+    color:#42dd40;
 }
 
 .titulo-preguntas{
