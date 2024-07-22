@@ -1,0 +1,133 @@
+.custom-navbar {
+    background-color:#42dd40;
+    color: #8A716A;
+    font-family: "Noto Sans JP", sans-serif
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #ffffff;
+}
+
+.custom-navbar .nav-link:hover {
+    color:#1A4314;
+}
+
+.custom-navbar .navbar-toggler  {
+    border-color: #8A716A;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28138, 113, 106, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.h1-index {   
+    color:#0b9e06;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+.h2-index{
+    color:#0b9e06;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+#parrafo-index {
+    background-color: #A0E7E5;
+    color: blue;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-image {
+    max-width: 350px; /* Ajusta el tamaño máximo de la imagen según lo necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 15px; /* Espacio entre la imagen y el texto */
+}
+
+.text {
+    max-width: 50%;
+}
+
+.h1-index {   
+    color: #FFAEBC;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.h2-index {   
+    color: #0b9e06;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+#parrafo-index {
+    margin-left:15px;
+    background-color: #A0E7E5;
+    color: blue;
+}
+
+.ley-link{
+    margin-left: 15px;
+}
+
+.titulo-preguntas{
+    color: green;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+.preguntas-frecuentes{
+    margin-bottom: 30px;
+}
+
+.custom-footer {
+    background-color:#42dd40;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em; 
+    color: #ffffff;
+}
+
+.location i {
+    margin-right: 10px;
+}
+
+.social-icons i {
+    font-size: 1.5em;
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+.social-icons i:hover {
+    color: #D4A5A5;
+}
