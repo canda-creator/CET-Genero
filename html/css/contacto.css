@@ -1,0 +1,70 @@
+.custom-navbar {
+    background-color:#42dd40;
+    color: #8A716A;
+    font-family: "Noto Sans JP", sans-serif
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #ffffff;
+}
+
+.custom-navbar .nav-link:hover {
+    color:#1A4314
+
+    ;
+}
+
+.custom-navbar .navbar-toggler  {
+    border-color: #8A716A;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28138, 113, 106, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.custom-footer {
+    background-color:#42dd40;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em; 
+    color: #ffffff;
+}
+
+.location i {
+    margin-right: 10px;
+}
+
+.social-icons i {
+    font-size: 1.5em;
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+.social-icons i:hover {
+    color: #D4A5A5;
+}
