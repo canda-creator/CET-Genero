@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 .custom-navbar {
     background-color:#42dd40;
     color: #8A716A;
@@ -23,6 +24,22 @@
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28138, 113, 106, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-image {
+    max-width: 350px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.text {
+    max-width: 50%;
+}
+
 .h1-index {   
     color:#0b9e06;
     font-family: "Noto Sans JP", sans-serif;
@@ -40,42 +57,6 @@
 }
 
 #parrafo-index {
-    color: blue;
-}
-
-.content-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.small-image {
-    max-width: 350px; /* Ajusta el tamaño máximo de la imagen según lo necesites */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin-right: 15px; /* Espacio entre la imagen y el texto */
-}
-
-.text {
-    max-width: 50%;
-}
-
-.h1-index {   
-    color: #FFAEBC;
-    font-family: "Noto Sans JP", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin-bottom: 10px;
-}
-
-.h2-index {   
-    color: #0b9e06;
-    font-family: "Noto Sans JP", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin-bottom: 10px;
-}
-
-#parrafo-index {
     margin-left:15px;
     color: blue;
 }
@@ -88,7 +69,7 @@
 }
 
 .ley-link:hover{
-    color: violet;
+    color: rgb(76, 252, 70);
 }
 
 .titulo-preguntas{
@@ -96,11 +77,6 @@
     display: flex;
     justify-content: center;
     margin-top: 35px;
-}
-
-
-.preguntas-frecuentes{
-    margin-bottom: 30px;
 }
 
 .custom-footer {
