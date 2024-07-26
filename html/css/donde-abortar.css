@@ -22,7 +22,31 @@
 .custom-navbar .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28138, 113, 106, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+.Titulo-pagina{
+    display: flex;
+    justify-content: center;
+}
 
+.parrafo-abortar{
+    display: flex;
+    justify-content: center;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.reclamos-link{
+    text-decoration: none;
+    color: rgb(212, 97, 30);
+}
+
+.reclamos-link:hover{
+    color: green;
+}
 
 .custom-footer {
     background-color:#42dd40;
