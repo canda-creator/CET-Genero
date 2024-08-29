@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia sobre Aborto en Argentina</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #quiz-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .question {
+            font-size: 1.5em;
+            color: #4B0082; /* Violeta */
+            margin-bottom: 20px;
+        }
+
+        .answers {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .answer {
+            background-color: #e8f5e9; /* Verde claro */
+            border: 2px solid #4caf50; /* Verde oscuro */
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 1.1em;
+            color: #388e3c; /* Verde medio */
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        }
+
+        .answer:hover {
+            background-color: #c8e6c9; /* Verde claro más intenso */
+            border-color: #388e3c; /* Verde medio */
+            color: #2e7d32; /* Verde más oscuro */
+        }
+
+        .answer:disabled {
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        #next-button {
+            background-color: #8e24aa; /* Violeta oscuro */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #next-button:hover {
+            background-color: #6a1b9a; /* Violeta más oscuro */
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .result {
+            font-size: 1.5em;
+            color: #388e3c; /* Verde medio */
+            margin-top: 20px;
+        }
+
+        #restart-button {
+            background-color: #388e3c; /* Verde medio */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        #restart-button:hover {
+            background-color: #2e7d32; /* Verde más oscuro */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="quiz-container">
+        <div class="question">
+            <p id="question-text">¿Cuándo comenzó a ser legal el Aborto en Argentina?</p>
+        </div>
+        <div class="answers">
+            <button class="answer">2020</button>
+            <button class="answer">2019</button>
+            <button class="answer">2021</button>
+        </div>
+        <button id="next-button" class="hidden">Siguiente</button>
+    </div>
+
+    <div id="result-container" class="hidden">
+        <p class="result" id="result-text"></p>
+        <button id="restart-button">Reiniciar</button>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                question: "¿Cuándo comenzó a ser legal el Aborto en Argentina?",
+                answers: [
+                    { text: "2020", correct: true },
+                    { text: "2019", correct: false },
+                    { text: "2021", correct: false }
+                ]
+            },
+            {
+                question: "¿Tengo que pagar para poder abortar?",
+                answers: [
+                    { text: "SÍ", correct: false },
+                    { text: "NO", correct: true }
+                ]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        const questionText = document.getElementById('question-text');
+        const answersContainer = document.querySelector('.answers');
+        const nextButton = document.getElementById('next-button');
+        const resultContainer = document.getElementById('result-container');
+        const resultText = document.getElementById('result-text');
+        const restartButton = document.getElementById('restart-button');
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            resultContainer.classList.add('hidden');
+            nextButton.classList.add('hidden');
+            showQuestion();
+        }
+
+        function showQuestion() {
+            const currentQuestion = questions[currentQuestionIndex];
+            questionText.textContent = currentQuestion.question;
+            answersContainer.innerHTML = '';
+
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement('button');
+                button.textContent = answer.text;
+                button.classList.add('answer');
+                button.addEventListener('click', () => selectAnswer(answer));
+                answersContainer.appendChild(button);
+            });
+        }
+
+        function selectAnswer(answer) {
+            if (answer.correct) {
+                score++;
+            }
+            Array.from(answersContainer.children).forEach(button => {
+                button.disabled = true;
+                if (button.textContent === answer.text) {
+                    button.style.backgroundColor = answer.correct ? '#81c784' : '#ffcdd2'; // Verde para correcto, rojo claro para incorrecto
+                    button.style.borderColor = answer.correct ? '#388e3c' : '#e57373'; // Bordes más oscuros
+                    button.style.color = '#fff'; // Texto blanco
+                }
+            });
+            nextButton.classList.remove('hidden');
+        }
+
+        function showResult() {
+            resultText.textContent = `Obtuviste ${score} de ${questions.length} preguntas correctas.`;
+            resultContainer.classList.remove('hidden');
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+                nextButton.classList.add('hidden');
+            } else {
+                showResult();
+            }
+        }
+
+        function restartQuiz() {
+            startQuiz();
+        }
+
+        nextButton.addEventListener('click', nextQuestion);
+        restartButton.addEventListener('click', restartQuiz);
+
+        startQuiz();
+    </script>
+
+</body>
+</html>
