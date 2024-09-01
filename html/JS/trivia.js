@@ -14,6 +14,7 @@ const questions = [
             { text: "NO", correct: true }
         ]
     }
+    
 ];
 
 let currentQuestionIndex = 0;
