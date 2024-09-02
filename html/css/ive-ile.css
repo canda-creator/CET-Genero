@@ -1,6 +1,6 @@
 .custom-navbar {
     background-color:#42dd40;
-    color: #8A716A;
+    color: #826a8a;
     font-family: "Noto Sans JP", sans-serif
 }
 
@@ -14,7 +14,7 @@
 }
 
 .custom-navbar .navbar-toggler  {
-    border-color: #8A716A;
+    border-color: #826a8a;
 }
 
 .custom-navbar .navbar-toggler-icon {
@@ -24,7 +24,7 @@
 .h1-ive {
     display: flex;
     justify-content: center;
-    color: #FFAEBC;
+    color: #7a3b79;
     font-family: "Noto Sans JP", sans-serif;
     font-size: 2.5em;
     font-weight: bold;
@@ -32,10 +32,11 @@
 }
 
 .parrafo-ive {
-    background-color: #FFAEBC; 
-    color: #333; 
+    background-color: #be5cf3; 
+    color: hsl(0, 0%, 100%); 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic; 
+    font-style: normal; 
+    font-weight:bold ;
     padding: 10px;
     border-radius: 5px; 
     line-height: 1.6;
